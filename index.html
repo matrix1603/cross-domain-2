@@ -13,7 +13,7 @@
 
     <script>
         window.addEventListener('message', (event) => {
-            if (event.origin !== 'http://localhost:8080') {
+            if (event.origin !== 'https://wonderful-forest-0a469d503.5.azurestaticapps.net') {
                 return;
             }
             document.getElementById('message').textContent = `Message received: ${event.data}`;
